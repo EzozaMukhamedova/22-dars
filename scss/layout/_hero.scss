@@ -1,0 +1,40 @@
+.hero {
+  background: center/ cover no-repeat url(../../assets/images/hero-coffee.png);
+  background-position-y: 90%;
+  padding: 147px 0 166px 0;
+
+  max-width: 2600px;
+  margin: 0 auto;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__title {
+    font-size: 72px;
+    line-height: 93.6px;
+  }
+
+  &__desc {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    color: $TEXT-COLOR;
+
+    margin-top: 32px;
+  }
+
+  &__btn {
+    margin-top: 64px;
+  }
+
+  &__play {
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.coffee-machine {
+  margin-bottom: 90px;
+
+  &__wrapper {
+    background-color: $BACKGROUND_COLOR;
+    display: flex;
+    margin-top: 140px;
+  }
+
+  &__btn {
+    width: 215px;
+    height: 62px;
+    padding: 20px 36px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__left img {
+    padding: 85px 160px 86px 160px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__right {
+    padding: 80px 72px 84px 0px;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 36px;
+  }
+
+  p {
+    margin-bottom: 36px;
+    color: #ffffff84;
+  }
+}

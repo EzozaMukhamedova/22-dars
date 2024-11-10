@@ -1,0 +1,119 @@
+.cofee-popular {
+  &__wrapper {
+    margin-bottom: 56px;
+    text-align: center;
+  }
+
+  &__item__wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    span {
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+  }
+
+  &__brazil__btn {
+    padding: 12px;
+    width: 169px;
+    height: 50px;
+    transition: 0.3s ease-in-out;
+    border: none;
+
+    &:hover {
+      transform: scale(1.05);
+      border: 1px solid $PRIMARY-COLOR;
+    }
+  }
+&r__icon img {
+  
+}
+  &__card_brazil {
+    margin-bottom: 56px;
+    height: 600px;
+    background-color: #121315;
+    padding: 48px;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+
+
+    span {
+      color: #c99e71;
+    }
+
+    &__item {
+      margin-top: 36px;
+      margin-bottom: 38px;
+    }
+
+    span {
+      padding-right: 12px;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    padding-left: 43px;
+    padding-right: 41px;
+
+    span {
+      margin-right: 13px;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  span {
+    text-align: center;
+  }
+  &__item__wrapper span {
+    color: white;
+  }
+  &__product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+
+    span {
+      font-weight: 500;
+      line-height: 19.2px;
+    }
+  }
+
+  &__product__wrapper {
+    text-align: center;
+  }
+
+  &__product__info {
+    color: #c99e71;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    margin-bottom: 12px;
+  }
+
+  &__wrapper {
+    h1 {
+      color: #ffffff;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 62.4px;
+      text-align: center;
+      margin-bottom: 56px;
+    }
+  }
+}
